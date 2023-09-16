@@ -91,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
         if (Physics.Raycast(ray, out hit, rayLenght))
         {
             var selection = hit.transform;
-            if (selection.CompareTag(GlobalConstants.TAG_KEY))
+            if (selection.CompareTag(GlobalConstants.TAG_KEY) || selection.CompareTag(GlobalConstants.TAG_CLEARKEY))
             {
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 defaultMaterial = selectionRenderer.material;
@@ -108,7 +108,16 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Physics.Raycast(ray, out hit, rayLenght))
             {
+                if(hit.collider.tag == GlobalConstants.TAG_KEY)
+                {
+                hit.collider.gameObject.GetComponent<SoundKey>().AddKey();
                 hit.collider.gameObject.GetComponent<AudioSource>().Play();
+                }
+                else if(hit.collider.tag == GlobalConstants.TAG_CLEARKEY)
+                {
+                    hit.collider.gameObject.GetComponent<ClearKey>().ClearAnswer();
+
+                }
             }
         }
 

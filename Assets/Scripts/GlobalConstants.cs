@@ -4,6 +4,7 @@ public static class GlobalConstants
     #region GameTags
     public const string TAG_PLAYER = "Player";
     public const string TAG_KEY = "PianoKey";
+    public const string TAG_CLEARKEY = "ClearKey";
     #endregion
 
 

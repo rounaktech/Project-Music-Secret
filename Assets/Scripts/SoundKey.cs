@@ -6,7 +6,13 @@ public class SoundKey : MonoBehaviour
 {
     [SerializeField] AudioClip keySound;
     AudioSource source;
+    AnswerManager ans;
+    [SerializeField] string KeySoundString;
 
+    private void Awake()
+    {
+        ans = AnswerManager.Instance;
+    }
     private void Start()
     {
         source = GetComponent<AudioSource>();
@@ -18,5 +24,9 @@ public class SoundKey : MonoBehaviour
         source.Play();
     }
 
+    public void AddKey()
+    { 
+        ans.KeyStringAdder(KeySoundString);
+    }
 
 }
