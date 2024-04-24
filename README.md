@@ -27,7 +27,6 @@ Tutorial Link:- https://www.youtube.com/watch?v=z6xiZi6e56Y&embeds_referring_eur
 ![image](https://github.com/rounaktech/Project-Music-Secret/assets/62164337/2edca368-8a97-452b-8502-36fde7c8844a)
 ![image](https://github.com/rounaktech/Project-Music-Secret/assets/62164337/3292ecc7-c69f-4e76-b788-a3e542d9ede7)
 ![image](https://github.com/rounaktech/Project-Music-Secret/assets/62164337/53eef92a-2e72-48d3-85c5-d8063f784f7e)
-![image](https://github.com/rounaktech/Project-Music-Secret/assets/62164337/0af14da4-1f72-4a5f-a94d-7f3d31f0607c)
 ![image](https://github.com/rounaktech/Project-Music-Secret/assets/62164337/b9b71fa4-681d-427b-a358-7c0b9a123a50)
 ![image](https://github.com/rounaktech/Project-Music-Secret/assets/62164337/8e2bfaae-003f-4c0e-9732-6361948a0395)
 
